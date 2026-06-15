@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <!-- Importação das Fontes Escolhidas: Poppins e Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- TAG OBRIGATÓRIA DA COMPETIÇÃO -->
+    <div class="agrinho-badge" data-tag="agrinho">🌱 Projeto Agrinho 2026</div>
+
+    <header>
+        <div class="container header-content">
+            <h1>Agro Forte, <span class="green-text">Futuro Sustentável</span></h1>
+            <p>O equilíbrio entre a produção de alimentos e a preservação dos biomas brasileiros.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <!-- SEÇÃO 1: O DESAFIO DA PRODUTIVIDADE -->
+        <section class="card animate-section">
+            <h2>Produzir Mais no Mesmo Espaço</h2>
+            <p>O grande desafio do século XXI não é encontrar novas terras para plantar, mas sim otimizar as áreas que já utilizamos. O Brasil é uma potência agropecuária, mas o futuro exige uma <strong>intensificação sustentável</strong>.</p>
+            
+            <div class="grid-2col">
+                <div class="info-box text-center">
+                    <h3>Evolução Tecnológica</h3>
+                    <p>Graças à tecnologia no campo, o Brasil hoje produz muito mais grãos por hectare do que nas décadas passadas, poupando milhões de hectares de florestas nativas.</p>
+                </div>
+                <!-- 
+                  FONTE DOS DADOS DE IMAGEM: Unsplash (Licença Livre / Sem direitos autorais)
+                  CONTEXTO: Foto de satélite/drone mostrando tecnologia de precisão no campo.
+                -->
+                <img src="https://images.unsplash.com/photo-1592982537447-744077110b8c?auto=format&fit=crop&w=600&q=80" 
+                     alt="Trator utilizando tecnologia de GPS de precisão em uma plantação sustentável, demonstrando eficiência sem expansão de área." 
+                     class="img-responsive">
+            </div>
+        </section>
+
+        <!-- SEÇÃO 2: BIOMAS AFETADOS E DADOS -->
+        <section class="card animate-section">
+            <h2>O Impacto nos Biomas Brasileiros</h2>
+            <p>A expansão horizontal (abertura de novas áreas) pressiona ecossistemas vitais. Veja abaixo os índices reais de desmatamento acumulado e pressão agropecuária recente nos dois biomas mais afetados do Brasil:</p>
+
+            <!-- 
+              FONTE DOS DADOS DO GRÁFICO: 
+              - Relatórios Anuais de Desmatamento do MapBiomas (Alerta de Desmatamento / Dados Consolidados)
+              - Dados da Embrapa Territorial sobre a evolução da produtividade por área (Efeito Poupa-Terra).
+            -->
+            <div class="chart-container">
+                <div class="chart-header">
+                    <h3>Comparativo de Alertas de Desmatamento por Bioma</h3>
+                    <p class="source-hint"><!-- Fonte interna em comentário: MapBiomas Relatório Anual --></p>
+                </div>
+                
+                <div class="bar-chart">
+                    <div class="chart-row">
+                        <span class="label">Amazônia</span>
+                        <div class="bar-wrapper">
+                            <div class="bar bar-amazonia" id="bar-amazonia">0%</div>
+                        </div>
+                    </div>
+                    <div class="chart-row">
+                        <span class="label">Cerrado</span>
+                        <div class="bar-wrapper">
+                            <div class="bar bar-cerrado" id="bar-cerrado">0%</div>
+                        </div>
+                    </div>
+                </div>
+                <p class="chart-note">*Representação baseada na proporção de perda de vegetação nativa para expansão não planejada.</p>
+            </div>
+
+            <div class="alert-box">
+                <h4>⚠️ Consequência da Expansão Sem Controle</h4>
+                <p>A perda de vegetação no Cerrado afeta diretamente as cabeceiras dos principais rios brasileiros, reduzindo a disponibilidade de água para a própria agricultura.</p>
+            </div>
+        </section>
+
+        <!-- SEÇÃO 3: SOLUÇÃO (EQUILÍBRIO) -->
+        <section class="card animate-section">
+            <h2>O Caminho do Equilíbrio: ILPF</h2>
+            <p>A tecnologia da <strong>Integração Lavoura-Pecuária-Floresta (ILPF)</strong> e a recuperação de pastagens degradadas provam que é possível superar as metas de produção atuais sem derrubar uma única árvore.</p>
+            
+            <div class="grid-2col reverse-mobile">
+                <!-- 
+                  FONTE DOS DADOS DE IMAGEM: Unsplash (Licença Livre / Sem direitos autorais)
+                  CONTEXTO: Gado pastando em área de integração com árvores.
+                -->
+                <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=600&q=80" 
+                     alt="Pastagem sustentável integrada com linhas de árvores plantadas, ilustrando o sistema ILPF da Embrapa." 
+                     class="img-responsive">
+                
+                <div class="info-box-green">
+                    <h3>Vantagens do Sistema Sustentável:</h3>
+                    <ul>
+                        <li><strong>Sequestro de Carbono:</strong> As árvores absorvem o CO₂ emitido.</li>
+                        <li><strong>Conforto Térmico:</strong> O gado produz mais leite e carne na sombra.</li>
+                        <li><strong>Proteção do Solo:</strong> Reduz drasticamente a erosão e mantém a umidade.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container text-center">
+            <p><strong>Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente</strong></p>
+            <p class="credits">Desenvolvido para fins educacionais. Fontes de dados: MapBiomas &amp; Embrapa (2024-2026).</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
